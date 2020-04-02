@@ -1,6 +1,6 @@
 # Blazor Reporting Components in Bold Reports
 
-This repository contains example about how to integrate our Bold Reports HTML5/JavaScript [`Report Viewer`] into [`Blazor`] application.
+This repository contains example about how to integrate our Bold Reports HTML5/JavaScript [`Report Viewer`](https://www.boldreports.com/embedded/reporting-tools/javascript/report-viewer) into [`Blazor`](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor) application.
 
 ## Online Demos
 
