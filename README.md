@@ -1,2 +1,18 @@
-# blazor-reporting-components
-Integration of Bold Reports JavaScript reporting components into Blazor apps sample
+# Blazor Reporting Components in Bold Reports
+
+This repository contains example about how to integrate our Bold Reports HTML5/JavaScript [`Report Viewer`] into [`Blazor`] application.
+
+## Online Demos
+
+Take a look at the Bold Reporting Components live demo [here](https://demos.boldreports.com/home/).
+
+## Documentation
+
+A complete Bold Reports documentation can be found on [Bold Reports Help](https://documentation.boldreports.com/).
+
+## Support and Feedback
+
+* For any other queries, reach our [Bold Reports support team](mailto:support@boldreports.com) or [Feedback portal](https://www.boldreports.com/feedback/).
+
+* To renew the subscription, click [here](https://www.boldreports.com/pricing/on-premise) or contact our sales team at <https://www.boldreports.com/contact>.
+
