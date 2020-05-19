@@ -17,7 +17,7 @@
     public async void RenderReportViewer()
     {
         viewerOptions.ReportName = "sales-order-detail";
-        viewerOptions.ServiceURL = "/api/ReportViewer";
+        viewerOptions.ServiceURL = "/api/BoldReportsAPI";
         await JSRuntime.InvokeVoidAsync("BoldReports.RenderViewer", "report-viewer", viewerOptions);
     }
 

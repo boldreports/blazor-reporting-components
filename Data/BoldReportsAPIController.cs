@@ -13,7 +13,7 @@ namespace BlazorReportingTools.Data
 {
     [Route("api/{controller}/{action}/{id?}")]
     [ApiController]
-    public class ReportViewerController : ControllerBase, IReportController
+    public class BoldReportsAPIController : ControllerBase, IReportController
     {
         // Report viewer requires a memory cache to store the information of consecutive client request and
         // have the rendered report viewer information in server.
@@ -22,7 +22,7 @@ namespace BlazorReportingTools.Data
         // IHostingEnvironment used with sample to get the application data from wwwroot.
         private IWebHostEnvironment _hostingEnvironment;
 
-        public ReportViewerController(IMemoryCache memoryCache, IWebHostEnvironment hostingEnvironment)
+        public BoldReportsAPIController(IMemoryCache memoryCache, IWebHostEnvironment hostingEnvironment)
         {
             _cache = memoryCache;
             _hostingEnvironment = hostingEnvironment;
