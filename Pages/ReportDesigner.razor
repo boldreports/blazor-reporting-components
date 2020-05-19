@@ -1,0 +1,25 @@
+﻿@page "/ReportDesigner"
+
+@using Microsoft.JSInterop
+@using Microsoft.AspNetCore.Components
+@inject IJSRuntime JSRuntime
+@using BlazorReportingTools.Data;
+
+<div id="report-designer" style="width: 100%;height: 950px"></div>
+
+@code {
+    // ReportDesigner options
+    BoldReportDesignerOptions designerOptions = new BoldReportDesignerOptions();
+
+    // Used to render the Bold Report Designer component in Blazor page.
+    public async void RenderReportDesigner()
+    {
+        designerOptions.ServiceURL = "/api/ReportDesigner";
+        await JSRuntime.InvokeVoidAsync("BoldReports.RenderDesigner", "report-designer", designerOptions);
+    }
+    // Initial rendering of Bold Report Designer
+    protected override void OnAfterRender(bool firstRender)
+    {
+        RenderReportDesigner();
+    }
+}
