@@ -1,4 +1,5 @@
 ﻿@page "/"
+@page "/ReportViewer"
 
 @using Microsoft.JSInterop
 @using Microsoft.AspNetCore.Components
@@ -16,7 +17,7 @@
     public async void RenderReportViewer()
     {
         viewerOptions.ReportName = "sales-order-detail";
-        viewerOptions.ServiceURL = "/api/BoldReportsAPI";
+        viewerOptions.ServiceURL = "/api/ReportViewer";
         await JSRuntime.InvokeVoidAsync("BoldReports.RenderViewer", "report-viewer", viewerOptions);
     }
 
