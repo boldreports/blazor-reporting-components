@@ -11,8 +11,7 @@ using Microsoft.Extensions.Caching.Memory;
 
 namespace BlazorReportingTools.Data
 {
-    [Route("api/{controller}/{action}/{id?}")]
-    [ApiController]
+    [Route("api/{controller}/{action}/{id?}")]    
     public class BoldReportsAPIController : ControllerBase, IReportController
     {
         // Report viewer requires a memory cache to store the information of consecutive client request and
