@@ -12,7 +12,6 @@ using Microsoft.Extensions.Caching.Memory;
 namespace BlazorReportingTools.Data
 {
     [Route("api/{controller}/{action}/{id?}")]
-    [ApiController]
     public class ReportDesignerController : ControllerBase, IReportDesignerController
     {
         private Microsoft.Extensions.Caching.Memory.IMemoryCache _cache;
