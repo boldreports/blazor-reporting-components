@@ -1,6 +1,6 @@
 # Blazor Reporting Components in Bold Reports
 
-This repository contains example about how to integrate our Bold Reports HTML5/JavaScript [`Report Viewer`](https://www.boldreports.com/embedded/reporting-tools/javascript/report-viewer) and [`Report Designer`](https://www.boldreports.com/embedded/reporting-tools/javascript/report-designer) into [`Blazor`](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor) application.
+This repository contains example about how to integrate our Bold Reports HTML5/JavaScript [`Report Viewer`](https://www.boldreports.com/embedded/reporting-tools/javascript/report-viewer/?utm_source=github&utm_medium=backlinks) and [`Report Designer`](https://www.boldreports.com/embedded/reporting-tools/javascript/report-designer/?utm_source=github&utm_medium=backlinks) into [`Blazor`](https://dotnet.microsoft.com/apps/aspnet/web-apps/blazor) application.
 
 ## Prerequisites
 
@@ -21,15 +21,15 @@ Before getting started with bold reports, make sure your development environment
 
 ## Online Demos
 
-Take a look at the Bold Reporting Components live demo [here](https://demos.boldreports.com/home/).
+Take a look at the Bold Reporting Components live demo [here](https://demos.boldreports.com/home/?utm_source=github&utm_medium=backlinks).
 
 ## Documentation
 
-A complete Bold Reports documentation can be found on [Bold Reports Help](https://documentation.boldreports.com/).
+A complete Bold Reports documentation can be found on [Bold Reports Help](https://help.boldreports.com/).
 
 ## Support and Feedback
 
-* For any other queries, reach our [Bold Reports support team](mailto:support@boldreports.com) or [Feedback portal](https://www.boldreports.com/feedback/).
+* For any other queries, reach our [Bold Reports support team](mailto:support@boldreports.com) or [Feedback portal](https://www.boldreports.com/feedback/?utm_source=github&utm_medium=backlinks).
 
-* To renew the subscription, click [here](https://www.boldreports.com/pricing/on-premise) or contact our sales team at <https://www.boldreports.com/contact>.
+* To renew the subscription, click [here](https://www.boldreports.com/pricing/?utm_source=github&utm_medium=backlinks) or contact our sales team at <https://www.boldreports.com/contact>.
 
